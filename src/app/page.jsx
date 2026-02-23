@@ -4,10 +4,11 @@ import { useState } from "react";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import Dashboard from "@/components/dashborad/Dashboard";
-import LeadsTable from "@/components/LeadsTable";
+import LeadsTable from "@/components/enquiry/LeadsTable";
 import ItineraryBuilder from "@/components/itinery/ItinenaryBuilder";
 import ItineraryPreview from "@/components/itinery/ItineryPreview";
 import { INITIAL_ITINERARY } from "../components/data/MockData";
+import Vendors from "@/components/vendors/Vendors";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -38,6 +39,10 @@ export default function Page() {
 
           {activeTab === "dashboard" && (
             <Dashboard />
+          )}
+
+          {activeTab === "vendors" && (
+            <Vendors />
           )}
 
           {activeTab === "leads" && (

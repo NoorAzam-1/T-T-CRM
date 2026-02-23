@@ -31,6 +31,20 @@ export const Icons = {
       <path d="M3 6h18M8 6V4h8v2"></path>
     </svg>
   ),
+  Vendors: () => (
+    <svg
+      stroke="currentColor"
+      fill="none"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      height="22"
+      width="22"
+    >
+      <path d="M3 9l1-4h16l1 4"></path>
+      <path d="M5 9v10a2 2 0 0 0 2 2h2v-6h6v6h2a2 2 0 0 0 2-2V9"></path>
+      <path d="M3 9h18"></path>
+    </svg>
+  ),
   Rupee: () => <span>₹</span>,
   Eye: () => <span>👁</span>,
   Download: () => <span>⬇</span>,

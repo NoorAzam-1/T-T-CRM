@@ -1,6 +1,6 @@
-import { INDIAN_LEADS } from "./data/MockData";
-import Badge from "./Badge";
-import { Icons } from "./UI/Icons";
+import { INDIAN_LEADS } from "../data/MockData";
+import Badge from "../Badge";
+import { Icons } from "../UI/Icons";
 
 export default function LeadsTable({ setItinerary, setActiveTab }) {
   return (

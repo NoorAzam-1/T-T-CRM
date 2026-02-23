@@ -10,6 +10,7 @@ export default function Sidebar({
     { id: "dashboard", label: "Dashboard", icon: Icons.Dashboard },
     { id: "leads", label: "Enquiries", icon: Icons.Users },
     { id: "itinerary", label: "Itinerary Builder", icon: Icons.File },
+    { id: "vendors", label: "Vendors", icon: Icons.Vendors },
   ];
 
   return (
